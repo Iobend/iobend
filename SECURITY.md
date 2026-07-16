@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-We take security seriously. We currently provide security updates for the following versions of AshGrid:
+We take security seriously. We currently provide security updates for the following versions of IOBend:
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -11,9 +11,9 @@ We take security seriously. We currently provide security updates for the follow
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within AshGrid, please do NOT open a public issue. 
+If you discover a security vulnerability within IOBend, please do NOT open a public issue. 
 
-Instead, please send an e-mail to our security team at **security@ashgrid.io** (placeholder) or use GitHub's private vulnerability reporting feature on this repository.
+Instead, please send an e-mail to our security team at **security@iobend.io** (placeholder) or use GitHub's private vulnerability reporting feature on this repository.
 
 ### Disclosure Process
 
@@ -29,4 +29,4 @@ Instead, please send an e-mail to our security team at **security@ashgrid.io** (
 - **Triage and Assessment**: Within 5 business days
 - **Patch Development**: Depends on severity, usually within 14 days for high/critical vulnerabilities.
 
-Thank you for helping keep AshGrid and its community safe!
+Thank you for helping keep IOBend and its community safe!

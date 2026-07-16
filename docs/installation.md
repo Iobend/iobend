@@ -2,7 +2,7 @@
 
 ## Overview
 
-AshGrid is a cross-platform CLI tool. Depending on your operating system and preferred package manager, you can install AshGrid using various methods.
+IOBend is a cross-platform CLI tool. Depending on your operating system and preferred package manager, you can install IOBend using various methods.
 
 ## Usage
 
@@ -11,7 +11,7 @@ AshGrid is a cross-platform CLI tool. Depending on your operating system and pre
 If you already have a Node.js environment (v18+), installing via npm is the fastest method:
 
 ```bash
-npm install -g ashgrid
+npm install -g iobend
 ```
 
 ### Windows (WinGet)
@@ -19,7 +19,7 @@ npm install -g ashgrid
 For Windows users, we provide official packages via the Windows Package Manager (WinGet).
 
 ```powershell
-winget install AshGrid
+winget install IOBend
 ```
 
 ### macOS (Homebrew)
@@ -27,8 +27,8 @@ winget install AshGrid
 *Note: Homebrew support is currently in preview.*
 
 ```bash
-brew tap ashgrid/tap
-brew install ashgrid
+brew tap iobend/tap
+brew install iobend
 ```
 
 ### Linux (Binary / Script)
@@ -38,7 +38,7 @@ brew install ashgrid
 For now, you can download the latest binary using our install script:
 
 ```bash
-curl -sL https://ashgrid.io/install.sh | bash
+curl -sL https://iobend.io/install.sh | bash
 ```
 
 ## Examples
@@ -46,13 +46,13 @@ curl -sL https://ashgrid.io/install.sh | bash
 To verify your installation, check the version:
 
 ```bash
-ashgrid --version
+iobend --version
 ```
 
 ## Expected output
 
 ```
-ashgrid version 1.0.0 (darwin/arm64)
+iobend version 1.0.0 (darwin/arm64)
 ```
 
 ## Common problems
@@ -62,5 +62,5 @@ ashgrid version 1.0.0 (darwin/arm64)
 
 ## Related commands
 
-- [`ashgrid getting-started`](getting-started.md)
-- [`ashgrid doctor`](doctor.md)
+- [`iobend getting-started`](getting-started.md)
+- [`iobend doctor`](doctor.md)

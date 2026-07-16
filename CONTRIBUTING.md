@@ -1,6 +1,6 @@
-# Contributing to AshGrid
+# Contributing to IOBend
 
-First off, thank you for considering contributing to AshGrid! It's people like you that make AshGrid a powerful tool for developers everywhere.
+First off, thank you for considering contributing to IOBend! It's people like you that make IOBend a powerful tool for developers everywhere.
 
 This document provides guidelines and instructions for contributing to this repository.
 
@@ -16,7 +16,7 @@ This document provides guidelines and instructions for contributing to this repo
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [AshGrid Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project and everyone participating in it is governed by the [IOBend Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ## How Can I Contribute?
 
@@ -36,7 +36,7 @@ Enhancement suggestions are tracked as GitHub issues. Please use the **Feature R
 
 - Use a clear and descriptive title for the issue.
 - Provide a step-by-step description of the suggested enhancement in as many details as possible.
-- Explain why this enhancement would be useful to most AshGrid users.
+- Explain why this enhancement would be useful to most IOBend users.
 
 ### Pull Requests
 
@@ -50,11 +50,11 @@ Please use the provided Pull Request Template when submitting your PR.
 
 ## Discussions
 
-For questions, architectures discussions, and general help, please use [GitHub Discussions](https://github.com/ashgrid/ashgrid/discussions) instead of the Issue tracker.
+For questions, architectures discussions, and general help, please use [GitHub Discussions](https://github.com/iobend/iobend/discussions) instead of the Issue tracker.
 
 ## Coding Standards
 
-While this specific repository is for documentation, if you are contributing to other AshGrid repositories, please follow these general guidelines:
+While this specific repository is for documentation, if you are contributing to other IOBend repositories, please follow these general guidelines:
 - Use meaningful variable and function names.
 - Keep functions small and focused on a single task.
 - Write inline comments for complex logic.

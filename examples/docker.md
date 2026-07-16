@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides realistic command examples for managing Docker with `ashgrid container`.
+This document provides realistic command examples for managing Docker with `iobend container`.
 
 ## Usage Examples
 
@@ -10,28 +10,28 @@ This document provides realistic command examples for managing Docker with `ashg
 Check if your Dockerfile and Compose files adhere to best practices.
 
 ```bash
-ashgrid container validate
+iobend container validate
 ```
 
 ### 2. Deep Cleanup
 Remove all stopped containers, dangling images, and unused volumes safely.
 
 ```bash
-ashgrid container clean --volumes
+iobend container clean --volumes
 ```
 
 ### 3. Restarting the Stack
 Quickly restart all containers defined in the project.
 
 ```bash
-ashgrid container restart
+iobend container restart
 ```
 
 ### 4. Viewing Logs
 Tail logs for a specific service defined in `docker-compose.yml`.
 
 ```bash
-ashgrid container logs web-backend --follow
+iobend container logs web-backend --follow
 ```
 
 ## Expected output

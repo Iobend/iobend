@@ -1,15 +1,15 @@
-# AshGrid WinGet Manifests
+# IOBend WinGet Manifests
 
-This directory is a placeholder for the future AshGrid WinGet manifests.
+This directory is a placeholder for the future IOBend WinGet manifests.
 
 ## Future Plans
 
-To provide a seamless installation experience for Windows users, we will publish AshGrid to the official Windows Package Manager (WinGet) repository.
+To provide a seamless installation experience for Windows users, we will publish IOBend to the official Windows Package Manager (WinGet) repository.
 
-The manifest YAML files placed here will track the releases and ensure the `winget install AshGrid` command always fetches the latest stable MSI or standalone executable.
+The manifest YAML files placed here will track the releases and ensure the `winget install IOBend` command always fetches the latest stable MSI or standalone executable.
 
 ```powershell
-winget install AshGrid
+winget install IOBend
 ```
 
 Stay tuned for updates!

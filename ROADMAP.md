@@ -1,6 +1,6 @@
 # Roadmap
 
-This document outlines the strategic direction and planned features for AshGrid. Our roadmap is subject to change based on community feedback and emerging technologies.
+This document outlines the strategic direction and planned features for IOBend. Our roadmap is subject to change based on community feedback and emerging technologies.
 
 ## Version 1.0 (Current Focus)
 The initial stable release focused on core developer environment diagnostics.
@@ -18,7 +18,7 @@ Expanding ecosystem support and deeper integrations.
 - **Package Managers**: Enhanced support for `npm`, `yarn`, `pnpm`, `pip`, `cargo`, and `go mod`.
 
 ## Version 2
-Bringing intelligence and cloud connectivity to AshGrid.
+Bringing intelligence and cloud connectivity to IOBend.
 
 - **AI Troubleshooting**: Leverage LLMs to suggest fixes for complex environment issues.
 - **Cloud Diagnostics**: Validate cloud environments (AWS, GCP, Azure) from the local machine.

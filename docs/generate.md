@@ -2,12 +2,12 @@
 
 ## Overview
 
-The `ashgrid generate` command (alias: `ashgrid gen`) scaffolds new code, configurations, or infrastructure based on standardized templates defined by your team or the community. It ensures that new projects or components adhere to best practices from day one.
+The `iobend generate` command (alias: `iobend gen`) scaffolds new code, configurations, or infrastructure based on standardized templates defined by your team or the community. It ensures that new projects or components adhere to best practices from day one.
 
 ## Usage
 
 ```bash
-ashgrid generate <template> <name> [options]
+iobend generate <template> <name> [options]
 ```
 
 **Options:**
@@ -19,12 +19,12 @@ ashgrid generate <template> <name> [options]
 
 Generate a new React component:
 ```bash
-ashgrid generate component Button
+iobend generate component Button
 ```
 
 Generate a Dockerfile for a Node.js app without prompts:
 ```bash
-ashgrid generate dockerfile --node-version 18 --port 3000
+iobend generate dockerfile --node-version 18 --port 3000
 ```
 
 ## Expected output
@@ -42,9 +42,9 @@ ashgrid generate dockerfile --node-version 18 --port 3000
 
 ## Common problems
 
-- **Template not found**: Ensure the template exists in your project's `.ashgrid/templates` directory or in the global registry.
-- **File conflicts**: If a file already exists at the target path, AshGrid will pause and ask for confirmation unless the `--force` flag is provided.
+- **Template not found**: Ensure the template exists in your project's `.iobend/templates` directory or in the global registry.
+- **File conflicts**: If a file already exists at the target path, IOBend will pause and ask for confirmation unless the `--force` flag is provided.
 
 ## Related commands
 
-- [`ashgrid init`](getting-started.md)
+- [`iobend init`](getting-started.md)

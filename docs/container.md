@@ -2,12 +2,12 @@
 
 ## Overview
 
-The `ashgrid container` command provides seamless validation, orchestration, and diagnostics for your local Docker and Kubernetes environments. It helps resolve common issues like port conflicts, missing networks, and misconfigured contexts.
+The `iobend container` command provides seamless validation, orchestration, and diagnostics for your local Docker and Kubernetes environments. It helps resolve common issues like port conflicts, missing networks, and misconfigured contexts.
 
 ## Usage
 
 ```bash
-ashgrid container <subcommand> [options]
+iobend container <subcommand> [options]
 ```
 
 **Subcommands:**
@@ -19,17 +19,17 @@ ashgrid container <subcommand> [options]
 
 Validate your `docker-compose.yml` and `Dockerfile`:
 ```bash
-ashgrid container validate
+iobend container validate
 ```
 
 Clean up unused container resources to free up disk space:
 ```bash
-ashgrid container clean --all
+iobend container clean --all
 ```
 
 ## Expected output
 
-When running `ashgrid container validate`:
+When running `iobend container validate`:
 
 ```
 🐳 Validating container configurations...
@@ -49,4 +49,4 @@ When running `ashgrid container validate`:
 
 ## Related commands
 
-- [`ashgrid doctor`](doctor.md)
+- [`iobend doctor`](doctor.md)

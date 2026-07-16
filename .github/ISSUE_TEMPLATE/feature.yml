@@ -1,12 +1,12 @@
 name: Feature Request
-description: Suggest an idea for AshGrid
+description: Suggest an idea for IOBend
 title: "[Feature]: "
 labels: ["enhancement", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing your ideas to make AshGrid better! Please provide as much context as possible.
+        Thanks for sharing your ideas to make IOBend better! Please provide as much context as possible.
   - type: textarea
     id: problem
     attributes:

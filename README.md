@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="assets/banner-placeholder.png" alt="AshGrid Banner" width="100%" />
+  <img src="assets/banner-placeholder.png" alt="IOBend Banner" width="100%" />
 
-  # AshGrid
+  # IOBend
 
   **A cross-platform developer environment diagnostics and automation platform.**
 
-  [![GitHub release](https://img.shields.io/github/v/release/ashgrid/ashgrid)](https://github.com/ashgrid/ashgrid/releases)
-  [![License](https://img.shields.io/github/license/ashgrid/ashgrid)](LICENSE)
+  [![GitHub release](https://img.shields.io/github/v/release/iobend/iobend)](https://github.com/iobend/iobend/releases)
+  [![License](https://img.shields.io/github/license/iobend/iobend)](LICENSE)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 </div>
@@ -15,22 +15,22 @@
 
 ## 📖 Project Description
 
-AshGrid helps developers validate, troubleshoot, repair, and prepare their development environments through a powerful CLI. No more "it works on my machine" – AshGrid ensures consistent, functional, and secure environments across your entire team.
+IOBend helps developers validate, troubleshoot, repair, and prepare their development environments through a powerful CLI. No more "it works on my machine" – IOBend ensures consistent, functional, and secure environments across your entire team.
 
 ## ✨ Features
 
-- **Doctor (`ashgrid doctor`)**: Instantly diagnose issues with your local toolchain, dependencies, and system configuration.
-- **Authentication (`ashgrid auth`)**: Securely manage credentials for internal and external services.
-- **UI (`ashgrid ui`)**: An intuitive visual interface to explore your environment and diagnose issues interactively.
-- **Scaffolding (`ashgrid generate`)**: Quickly bootstrap projects using standardized best-practice templates.
-- **Container Management (`ashgrid container`)**: Seamlessly validate and orchestrate your Docker and Kubernetes configurations.
-- **Model Context Protocol (`ashgrid mcp`)**: Integrate your local environment with powerful AI tools using standard MCP protocols.
+- **Doctor (`iobend doctor`)**: Instantly diagnose issues with your local toolchain, dependencies, and system configuration.
+- **Authentication (`iobend auth`)**: Securely manage credentials for internal and external services.
+- **UI (`iobend ui`)**: An intuitive visual interface to explore your environment and diagnose issues interactively.
+- **Scaffolding (`iobend generate`)**: Quickly bootstrap projects using standardized best-practice templates.
+- **Container Management (`iobend container`)**: Seamlessly validate and orchestrate your Docker and Kubernetes configurations.
+- **Model Context Protocol (`iobend mcp`)**: Integrate your local environment with powerful AI tools using standard MCP protocols.
 
-## 🚀 Why AshGrid?
+## 🚀 Why IOBend?
 
 Modern developer environments are complex. You have package managers, language runtimes, cloud CLI tools, and containers. When something breaks, hours are wasted debugging the environment instead of writing code. 
 
-AshGrid provides a single, unified interface to:
+IOBend provides a single, unified interface to:
 1. Validate that your machine meets a project's requirements.
 2. Automatically fix common configuration drifts.
 3. Manage complex toolchains without deep-diving into individual tool documentation.
@@ -40,55 +40,55 @@ AshGrid provides a single, unified interface to:
 ### npm (Global)
 Requires Node.js 18 or later.
 ```bash
-npm install -g ashgrid
+npm install -g iobend
 ```
 
 ### WinGet (Windows)
 ```powershell
-winget install AshGrid
+winget install IOBend
 ```
 
 ### Homebrew (macOS)
 *(Coming soon! See [homebrew/README.md](homebrew/README.md) for updates)*
 ```bash
-brew tap ashgrid/tap
-brew install ashgrid
+brew tap iobend/tap
+brew install iobend
 ```
 
 ### Linux (APT / RPM)
 *(Coming soon! Standalone binaries are planned for our next release)*
 ```bash
 # Example curl script placeholder
-curl -sL https://ashgrid.io/install.sh | bash
+curl -sL https://iobend.io/install.sh | bash
 ```
 
 ## ⚡ Quick Start
 
 Validate your current environment:
 ```bash
-ashgrid doctor
+iobend doctor
 ```
 
 Authenticate with your cloud provider:
 ```bash
-ashgrid auth login --provider aws
+iobend auth login --provider aws
 ```
 
 Start the interactive UI:
 ```bash
-ashgrid ui
+iobend ui
 ```
 
 ## 🛠 Commands Overview
 
 | Command | Description |
 |---|---|
-| `ashgrid doctor` | Run diagnostics on your system. |
-| `ashgrid auth` | Manage authentication states. |
-| `ashgrid ui` | Launch the local web dashboard. |
-| `ashgrid generate` | Scaffold new resources. |
-| `ashgrid container`| Manage Docker/Kubernetes setups. |
-| `ashgrid mcp` | Configure Model Context Protocol. |
+| `iobend doctor` | Run diagnostics on your system. |
+| `iobend auth` | Manage authentication states. |
+| `iobend ui` | Launch the local web dashboard. |
+| `iobend generate` | Scaffold new resources. |
+| `iobend container`| Manage Docker/Kubernetes setups. |
+| `iobend mcp` | Configure Model Context Protocol. |
 
 ## 📚 Documentation
 
@@ -104,7 +104,7 @@ ashgrid ui
 
 ## 🌐 Community
 
-- [GitHub Discussions](https://github.com/ashgrid/ashgrid/discussions)
+- [GitHub Discussions](https://github.com/iobend/iobend/discussions)
 - [Discord Server](#) *(Link coming soon)*
 - [Blog](#) *(Link coming soon)*
 

@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a report to help us improve AshGrid
+description: Create a report to help us improve IOBend
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
@@ -10,8 +10,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: AshGrid Version
-      description: What version of AshGrid are you running? (Run `ashgrid --version`)
+      label: IOBend Version
+      description: What version of IOBend are you running? (Run `iobend --version`)
       placeholder: "1.0.0"
     validations:
       required: true
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Description
       description: A clear and concise description of what the bug is.
-      placeholder: "When I run `ashgrid doctor`, the CLI hangs indefinitely during the Node.js check."
+      placeholder: "When I run `iobend doctor`, the CLI hangs indefinitely during the Node.js check."
     validations:
       required: true
   - type: textarea
@@ -43,9 +43,9 @@ body:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior.
       placeholder: |
-        1. Run 'ashgrid init'
-        2. Modify 'ashgrid.yaml' to require Node 18
-        3. Run 'ashgrid doctor'
+        1. Run 'iobend init'
+        2. Modify 'iobend.yaml' to require Node 18
+        3. Run 'iobend doctor'
         4. See error
     validations:
       required: true

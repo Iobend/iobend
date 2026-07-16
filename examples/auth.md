@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document provides realistic command examples for `ashgrid auth` to manage credentials.
+This document provides realistic command examples for `iobend auth` to manage credentials.
 
 ## Usage Examples
 
@@ -10,28 +10,28 @@ This document provides realistic command examples for `ashgrid auth` to manage c
 Authenticate with AWS SSO using a specific profile defined in your `.aws/config`.
 
 ```bash
-ashgrid auth login aws --profile staging-dev
+iobend auth login aws --profile staging-dev
 ```
 
 ### 2. Authenticating with GitHub Enterprise
 Log in to a custom GitHub Enterprise instance using a Personal Access Token (PAT).
 
 ```bash
-ashgrid auth login github --hostname github.mycompany.com --method token
+iobend auth login github --hostname github.mycompany.com --method token
 ```
 
 ### 3. Checking Expiration Status
 Quickly check how much time is left before your cloud tokens expire.
 
 ```bash
-ashgrid auth status
+iobend auth status
 ```
 
 ### 4. Logging out of all services
 Clear all cached credentials when switching laptops or finishing work on a public machine.
 
 ```bash
-ashgrid auth logout --all
+iobend auth logout --all
 ```
 
 ## Expected output

@@ -1,12 +1,12 @@
 name: Question
-description: Ask a question about using AshGrid
+description: Ask a question about using IOBend
 title: "[Question]: "
 labels: ["question"]
 body:
   - type: markdown
     attributes:
       value: |
-        For quick questions or community help, you might also want to check our [GitHub Discussions](https://github.com/ashgrid/ashgrid/discussions).
+        For quick questions or community help, you might also want to check our [GitHub Discussions](https://github.com/iobend/iobend/discussions).
   - type: textarea
     id: question
     attributes:

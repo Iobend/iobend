@@ -1,0 +1,23 @@
+name: Question
+description: Ask a question about using AshGrid
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For quick questions or community help, you might also want to check our [GitHub Discussions](https://github.com/ashgrid/ashgrid/discussions).
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What would you like to know?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Please provide any context, code snippets, or configuration files that might help answer your question.
+    validations:
+      required: false

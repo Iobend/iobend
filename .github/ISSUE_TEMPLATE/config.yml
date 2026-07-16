@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: GitHub Discussions
+    url: https://github.com/ashgrid/ashgrid/discussions
+    about: Ask questions, share ideas, and engage with the community.
+  - name: Documentation
+    url: https://github.com/ashgrid/ashgrid/tree/main/docs
+    about: Read the official AshGrid documentation.

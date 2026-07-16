@@ -1,0 +1,44 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+jobs:
+  validate-docs:
+    name: Validate Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check Markdown formatting (Prettier)
+        run: npx prettier --check "**/*.md"
+
+      - name: Check Broken Links (markdown-link-check)
+        run: npx markdown-link-check "**/*.md"
+
+  prepare-release:
+    name: Prepare GitHub Release
+    needs: validate-docs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Generate Release Notes
+        id: generate_notes
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          draft: true
+          prerelease: false

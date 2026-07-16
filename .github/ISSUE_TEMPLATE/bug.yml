@@ -1,0 +1,66 @@
+name: Bug Report
+description: Create a report to help us improve AshGrid
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible.
+  - type: input
+    id: version
+    attributes:
+      label: AshGrid Version
+      description: What version of AshGrid are you running? (Run `ashgrid --version`)
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: What OS are you using?
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 11
+        - Windows 10
+        - Linux (Ubuntu/Debian)
+        - Linux (Other)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is.
+      placeholder: "When I run `ashgrid doctor`, the CLI hangs indefinitely during the Node.js check."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Run 'ashgrid init'
+        2. Modify 'ashgrid.yaml' to require Node 18
+        3. Run 'ashgrid doctor'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Output
+      description: Please paste any relevant logs or terminal output. Run the command with `--verbose` if possible.
+      render: shell
+    validations:
+      required: false

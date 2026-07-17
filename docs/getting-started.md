@@ -1,59 +1,126 @@
+---
+title: "Getting Started with IOBend"
+description: "Install, upgrade, and configure the IOBend CLI on your machine."
+keywords: ["install", "setup", "getting started", "iobend cli", "homebrew", "npm", "winget"]
+---
+
 # Getting Started
 
-## Overview
+This guide will walk you through installing IOBend on your machine, verifying the setup, and running your very first project.
 
-Welcome to IOBend! This guide will walk you through setting up your first project, running initial diagnostics, and getting familiar with the core workflow.
+## Requirements
 
-## Usage
+Before installing IOBend, ensure your system meets the following minimum requirements:
+- **macOS**: 11 (Big Sur) or newer
+- **Linux**: Ubuntu 20.04+, Debian 11+, or compatible
+- **Windows**: Windows 10/11 (WSL2 recommended for advanced Docker workflows)
+- **Node.js**: v18.0.0 or higher (if using the npm installation method)
 
-Once installed, IOBend is available globally via the `iobend` command.
+## Installation
 
-1. **Initialize IOBend**
-   Navigate to your project directory and initialize IOBend to create a configuration file.
+IOBend is distributed through multiple package managers for your convenience.
 
-   ```bash
-   cd your-project
-   iobend init
-   ```
+### npm (Cross-Platform)
+The easiest way to install IOBend across all operating systems with Node.js installed.
+```bash
+npm install -g iobend
+```
 
-2. **Run a Health Check**
-   Verify that your local machine meets the project requirements.
+### Homebrew (macOS / Linux)
+We maintain an official Homebrew tap for easy installation and updates.
+```bash
+brew tap iobend/tap
+brew install iobend
+```
 
-   ```bash
-   iobend doctor
-   ```
+### WinGet (Windows)
+For native Windows users, IOBend is available via the Windows Package Manager.
+```powershell
+winget install iobend
+```
 
-3. **Explore the UI**
-   Launch the web dashboard for a visual breakdown of your environment.
+### Manual Installation
+If you prefer to install binaries manually, download the latest release for your architecture from the [GitHub Releases](https://github.com/iobend/iobend/releases) page. Extract the archive and add the executable to your system's `PATH`.
 
-   ```bash
-   iobend ui
-   ```
+## Verify Installation
 
-## Examples
-
-If you want to start a fresh project with sensible defaults:
+To ensure IOBend was installed correctly, check the installed version:
 
 ```bash
-iobend generate new-project my-app --template node-ts
+iobend version
+```
+*Expected Output:*
+```text
+iobend version 1.0.0 (darwin-arm64)
 ```
 
-## Expected output
+## First Run
 
-When running `iobend init`:
+The first command you should run is `iobend doctor`. This built-in diagnostic tool checks your machine for missing dependencies (like Git, Node.js, Docker) and configuration issues.
 
-```
-✅ Successfully initialized IOBend in /Users/dev/your-project
-📝 Created iobend.yaml with default settings.
-🚀 Run `iobend doctor` to check your environment health.
+```bash
+iobend doctor
 ```
 
-## Common problems
+> [!NOTE]
+> If `doctor` reports missing dependencies, it will often provide automated commands or links to install them.
 
-- **Command Not Found**: Ensure the installation directory is in your system `$PATH`. If installed via npm, check your `npm bin -g` directory.
-- **Config Not Found**: Some commands require you to be inside a directory with an `iobend.yaml` file. Run `iobend init` first.
+## Your First Project
 
-## Related commands
+Let's create your first project using an IOBend template. This will generate a standard directory structure and configuration files.
 
-- [`iobend doctor`](doctor.md)
-- [`iobend ui`](ui.md)
+1. Create a new directory and navigate into it:
+   ```bash
+   mkdir my-iobend-app && cd my-iobend-app
+   ```
+
+2. Generate a base configuration:
+   ```bash
+   iobend generate --template default
+   ```
+
+3. View your new setup! You now have a ready-to-go environment managed by IOBend.
+
+## Upgrade
+
+To upgrade IOBend to the latest version, use the package manager you used for installation:
+
+**npm:**
+```bash
+npm update -g iobend
+```
+
+**Homebrew:**
+```bash
+brew upgrade iobend
+```
+
+**WinGet:**
+```powershell
+winget upgrade iobend
+```
+
+Alternatively, you can run the built-in update command (if supported on your installation path):
+```bash
+iobend update
+```
+
+## Uninstall
+
+If you need to remove IOBend:
+
+**npm:**
+```bash
+npm uninstall -g iobend
+```
+
+**Homebrew:**
+```bash
+brew uninstall iobend
+brew untap iobend/tap
+```
+
+**WinGet:**
+```powershell
+winget uninstall iobend
+```

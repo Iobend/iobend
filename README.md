@@ -1,136 +1,116 @@
 <div align="center">
-  <img src="assets/IOBend.jpg" alt="IOBend Logo" width="200" />
+  <img src="https://via.placeholder.com/150x150?text=IOBend+Logo" alt="IOBend Logo" width="150" />
+  
+  # IOBend CLI
+  
+  **Developer environment manager for diagnostics, setup, and DevOps automation.**
 
-# IOBend
-
-**A cross-platform developer environment diagnostics and automation platform.**
-
-[![GitHub release](https://img.shields.io/github/v/release/iobend/iobend)](https://github.com/iobend/iobend/releases)
-[![License](https://img.shields.io/github/license/iobend/iobend)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+  [![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
+  [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
+  [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
+  [![Build Status](https://img.shields.io/github/actions/workflow/status/iobend/iobend/ci.yml?branch=main)](https://github.com/iobend/iobend/actions)
+  
+  [Documentation](https://docs.iobend.dev) • [Installation](#installation) • [Getting Started](#getting-started) • [Community](#community)
 </div>
 
 ---
 
-## 📖 Project Description
+## What is IOBend?
 
-IOBend helps developers validate, troubleshoot, repair, and prepare their development environments through a powerful CLI. No more "it works on my machine" – IOBend ensures consistent, functional, and secure environments across your entire team.
+IOBend is a next-generation CLI tool designed to simplify, automate, and standardize developer environments. Whether you're debugging local setup issues, configuring cloud infrastructure, or orchestrating complex DevOps workflows, IOBend provides a single, unified interface.
 
-## ✨ Features
+Built for **Developers**, **Platform Engineers**, and **Enterprise Teams**, IOBend brings the robust design principles of Docker and Terraform directly into your development workflow.
 
-- **Doctor (`iobend doctor`)**: Instantly diagnose issues with your local toolchain, dependencies, and system configuration.
-- **Authentication (`iobend auth`)**: Securely manage credentials for internal and external services.
-- **UI (`iobend ui`)**: An intuitive visual interface to explore your environment and diagnose issues interactively.
-- **Scaffolding (`iobend generate`)**: Quickly bootstrap projects using standardized best-practice templates.
-- **Container Management (`iobend container`)**: Seamlessly validate and orchestrate your Docker and Kubernetes configurations.
-- **Model Context Protocol (`iobend mcp`)**: Integrate your local environment with powerful AI tools using standard MCP protocols.
+---
 
-## 🚀 Why IOBend?
+## Features
 
-Modern developer environments are complex. You have package managers, language runtimes, cloud CLI tools, and containers. When something breaks, hours are wasted debugging the environment instead of writing code.
+- 🚀 **Environment Diagnostics:** Automatically detect and resolve misconfigurations with `iobend doctor`.
+- 🛠 **Instant Scaffolding:** Generate boilerplates, cloud integrations, and CI pipelines with `iobend generate`.
+- 🐳 **Container Management:** Effortlessly build, run, and orchestrate local containers using `iobend container`.
+- 🔐 **Secure Secrets:** Built-in secret management and environment isolation.
+- ⚡ **Cross-Platform:** Native support for macOS, Linux, and Windows.
+- 🧩 **Extensible:** Leverage the Model Context Protocol (MCP) to plug in custom tools and LLMs.
 
-IOBend provides a single, unified interface to:
+---
 
-1. Validate that your machine meets a project's requirements.
-2. Automatically fix common configuration drifts.
-3. Manage complex toolchains without deep-diving into individual tool documentation.
+## Installation
 
-## 📦 Installation
-
-### npm (Global)
-
-Requires Node.js 18 or later.
-
-```bash
-npm install -g iobend
-```
-
-### WinGet (Windows)
-
-```powershell
-winget install IOBend
-```
-
-### Homebrew (macOS)
-
-_(Coming soon! See [homebrew/README.md](homebrew/README.md) for updates)_
-
+### macOS (Homebrew)
 ```bash
 brew tap iobend/tap
 brew install iobend
 ```
 
-### Linux (APT / RPM)
-
-_(Coming soon! Standalone binaries are planned for our next release)_
-
-```bash
-# Example curl script placeholder
-curl -sL https://iobend.io/install.sh | bash
+### Windows (WinGet)
+```powershell
+winget install iobend
 ```
 
-## ⚡ Quick Start
+### Linux & macOS (npm)
+```bash
+npm install -g iobend
+```
 
-Validate your current environment:
+### Verify Installation
+```bash
+iobend --version
+```
 
+---
+
+## Getting Started
+
+### 1. Diagnose Your Environment
+Ensure your machine is ready for development by running the built-in diagnostic tool.
 ```bash
 iobend doctor
 ```
+*Output:*
+![Diagnostic Screenshot](https://via.placeholder.com/800x400?text=Screenshot:+iobend+doctor)
 
-Authenticate with your cloud provider:
+### 2. Scaffold a New Project
+Create a complete Node.js project with Docker and GitHub Actions configurations.
+```bash
+iobend generate --template nodejs-docker
+```
 
+### 3. Connect Integrations
+Authenticate with your cloud provider or CI/CD platform.
 ```bash
 iobend auth login --provider aws
 ```
 
-Start the interactive UI:
+---
 
-```bash
-iobend ui
-```
+## Roadmap
 
-## 🛠 Commands Overview
+- [x] Initial CLI release (v1.0.0)
+- [x] macOS and Linux support
+- [x] Windows native installer
+- [ ] Kubernetes cluster generation
+- [ ] Advanced GitOps integration
+- [ ] Self-hosted Enterprise dashboard
 
-| Command            | Description                       |
-| ------------------ | --------------------------------- |
-| `iobend doctor`    | Run diagnostics on your system.   |
-| `iobend auth`      | Manage authentication states.     |
-| `iobend ui`        | Launch the local web dashboard.   |
-| `iobend generate`  | Scaffold new resources.           |
-| `iobend container` | Manage Docker/Kubernetes setups.  |
-| `iobend mcp`       | Configure Model Context Protocol. |
+*See the [full roadmap](docs/roadmap.md) for more details.*
 
-## 📚 Documentation
+---
 
-- [Getting Started](docs/getting-started.md)
-- [Installation Guide](docs/installation.md)
-- [Doctor Command](docs/doctor.md)
-- [Authentication](docs/auth.md)
-- [UI Dashboard](docs/ui.md)
-- [Generators](docs/generate.md)
-- [Containers](docs/container.md)
-- [MCP Integration](docs/mcp.md)
-- [FAQ](docs/faq.md)
+## Contributing
 
-## 🌐 Community
+We welcome contributions from the community! If you're interested in improving IOBend, please check out our [Contributing Guide](docs/contributing.md) and [Development Setup](docs/contributing.md#development-setup).
 
-- [GitHub Discussions](https://github.com/iobend/iobend/discussions)
-- [Discord Server](#) _(Link coming soon)_
-- [Blog](#) _(Link coming soon)_
+---
 
-## 🤝 Contributing
+## Community & Support
 
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) to learn how to open issues, submit pull requests, and adhere to our coding standards.
+- **Documentation:** [Read the full docs](https://docs.iobend.dev)
+- **Discord:** [Join our community server](https://discord.gg/iobend)
+- **Issues:** [Report bugs or request features](https://github.com/iobend/iobend/issues)
+- **X / Twitter:** [@IOBendDev](https://twitter.com/IOBendDev)
 
-## 🔒 Security
+---
 
-Please refer to our [Security Policy](SECURITY.md) for information on supported versions and how to report vulnerabilities.
+## License
 
-## 🗺️ Roadmap
-
-Check out our [Roadmap](ROADMAP.md) to see what we're building next!
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+IOBend is licensed under the [MIT License](LICENSE).

@@ -24,7 +24,7 @@ winget install IOBend
 
 ### macOS (Homebrew)
 
-*Note: Homebrew support is currently in preview.*
+_Note: Homebrew support is currently in preview._
 
 ```bash
 brew tap iobend/tap
@@ -33,7 +33,7 @@ brew install iobend
 
 ### Linux (Binary / Script)
 
-*Note: Native APT/RPM packages are coming soon.*
+_Note: Native APT/RPM packages are coming soon._
 
 For now, you can download the latest binary using our install script:
 

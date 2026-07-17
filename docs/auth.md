@@ -11,6 +11,7 @@ iobend auth <subcommand> [options]
 ```
 
 **Subcommands:**
+
 - `login`: Authenticate with a specific provider.
 - `logout`: Clear credentials for a provider.
 - `status`: Check current authentication status for all required services.
@@ -19,11 +20,13 @@ iobend auth <subcommand> [options]
 ## Examples
 
 Log in to AWS using SSO:
+
 ```bash
 iobend auth login aws --profile default
 ```
 
 Check the status of all required authentications:
+
 ```bash
 iobend auth status
 ```

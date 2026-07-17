@@ -11,6 +11,7 @@ iobend mcp <subcommand> [options]
 ```
 
 **Subcommands:**
+
 - `start`: Start the local MCP server for AI tools to connect to.
 - `config`: Manage MCP server permissions and capabilities.
 - `logs`: View the interaction logs between the AI and your environment.
@@ -18,11 +19,13 @@ iobend mcp <subcommand> [options]
 ## Examples
 
 Start the MCP server in the background:
+
 ```bash
 iobend mcp start --daemon
 ```
 
 Configure allowed actions (e.g., allow read-only access):
+
 ```bash
 iobend mcp config --mode readonly
 ```

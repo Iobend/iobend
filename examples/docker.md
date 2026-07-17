@@ -7,6 +7,7 @@ This document provides realistic command examples for managing Docker with `iobe
 ## Usage Examples
 
 ### 1. Validating the Setup
+
 Check if your Dockerfile and Compose files adhere to best practices.
 
 ```bash
@@ -14,6 +15,7 @@ iobend container validate
 ```
 
 ### 2. Deep Cleanup
+
 Remove all stopped containers, dangling images, and unused volumes safely.
 
 ```bash
@@ -21,6 +23,7 @@ iobend container clean --volumes
 ```
 
 ### 3. Restarting the Stack
+
 Quickly restart all containers defined in the project.
 
 ```bash
@@ -28,6 +31,7 @@ iobend container restart
 ```
 
 ### 4. Viewing Logs
+
 Tail logs for a specific service defined in `docker-compose.yml`.
 
 ```bash

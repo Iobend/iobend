@@ -11,6 +11,7 @@ iobend container <subcommand> [options]
 ```
 
 **Subcommands:**
+
 - `validate`: Check if Docker/Kubernetes configurations are valid.
 - `clean`: Remove dangling images, stopped containers, and unused volumes.
 - `context`: Manage and switch Kubernetes/Docker contexts safely.
@@ -18,11 +19,13 @@ iobend container <subcommand> [options]
 ## Examples
 
 Validate your `docker-compose.yml` and `Dockerfile`:
+
 ```bash
 iobend container validate
 ```
 
 Clean up unused container resources to free up disk space:
+
 ```bash
 iobend container clean --all
 ```

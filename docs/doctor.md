@@ -13,6 +13,7 @@ iobend doctor [options]
 ```
 
 **Options:**
+
 - `--fix`: Automatically attempt to fix failing diagnostic checks (e.g., installing missing packages).
 - `--verbose`: Output detailed logs for every check.
 - `--output <format>`: Output results in a specific format (`json`, `yaml`, `text`).
@@ -20,16 +21,19 @@ iobend doctor [options]
 ## Examples
 
 Run standard diagnostics:
+
 ```bash
 iobend doctor
 ```
 
 Run diagnostics and auto-fix issues:
+
 ```bash
 iobend doctor --fix
 ```
 
 Output results to JSON for CI/CD pipelines:
+
 ```bash
 iobend doctor --output json > report.json
 ```

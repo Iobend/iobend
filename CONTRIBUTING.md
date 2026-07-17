@@ -5,6 +5,7 @@ First off, thank you for considering contributing to IOBend! It's people like yo
 This document provides guidelines and instructions for contributing to this repository.
 
 ## Table of Contents
+
 - [Code of Conduct](#code-of-conduct)
 - [How Can I Contribute?](#how-can-i-contribute)
   - [Reporting Bugs](#reporting-bugs)
@@ -25,6 +26,7 @@ This project and everyone participating in it is governed by the [IOBend Code of
 Bugs are tracked as GitHub issues. When creating an issue, please use the provided **Bug Report** template and fill out the details completely.
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
+
 - Use a clear and descriptive title.
 - Provide specific examples to demonstrate the steps.
 - Describe the behavior you observed after following the steps.
@@ -55,6 +57,7 @@ For questions, architectures discussions, and general help, please use [GitHub D
 ## Coding Standards
 
 While this specific repository is for documentation, if you are contributing to other IOBend repositories, please follow these general guidelines:
+
 - Use meaningful variable and function names.
 - Keep functions small and focused on a single task.
 - Write inline comments for complex logic.

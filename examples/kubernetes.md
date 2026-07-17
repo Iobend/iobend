@@ -7,6 +7,7 @@ This document provides realistic command examples for managing and validating Ku
 ## Usage Examples
 
 ### 1. Validating Kubeconfig
+
 Check your current kubeconfig for stale contexts, invalid certificates, or unreachable clusters.
 
 ```bash
@@ -14,6 +15,7 @@ iobend container validate --kubernetes
 ```
 
 ### 2. Switching Contexts
+
 Safely switch between clusters and namespaces with built-in validation before switching.
 
 ```bash
@@ -21,6 +23,7 @@ iobend container context switch dev-cluster --namespace default
 ```
 
 ### 3. Diagnosing a Pod
+
 Run a comprehensive diagnostic check against a specific pod to find crash loops or missing secrets.
 
 ```bash
@@ -28,6 +31,7 @@ iobend container diagnose pod api-server-5c4d
 ```
 
 ### 4. Viewing Cluster Health
+
 Get a high-level overview of the current cluster's node health and resource utilization.
 
 ```bash

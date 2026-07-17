@@ -3,6 +3,7 @@
 This document outlines the strategic direction and planned features for IOBend. Our roadmap is subject to change based on community feedback and emerging technologies.
 
 ## Version 1.0 (Current Focus)
+
 The initial stable release focused on core developer environment diagnostics.
 
 - **`doctor`**: Comprehensive environment diagnostics and health checks.
@@ -10,6 +11,7 @@ The initial stable release focused on core developer environment diagnostics.
 - **`ui`**: Local interactive visual interface for exploring diagnostics.
 
 ## Version 1.1
+
 Expanding ecosystem support and deeper integrations.
 
 - **Docker Support**: Built-in container validation and optimization checks.
@@ -18,6 +20,7 @@ Expanding ecosystem support and deeper integrations.
 - **Package Managers**: Enhanced support for `npm`, `yarn`, `pnpm`, `pip`, `cargo`, and `go mod`.
 
 ## Version 2
+
 Bringing intelligence and cloud connectivity to IOBend.
 
 - **AI Troubleshooting**: Leverage LLMs to suggest fixes for complex environment issues.
@@ -25,6 +28,7 @@ Bringing intelligence and cloud connectivity to IOBend.
 - **Enterprise Support**: Team-wide configuration sharing and compliance validation.
 
 ## Version 3
+
 Extensibility and ecosystem growth.
 
 - **Premium Features**: Advanced analytics and historical reporting for teams.

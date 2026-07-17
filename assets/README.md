@@ -16,4 +16,4 @@ When using IOBend branding materials, please adhere to the following guidelines:
 2. **Clear space**: Leave adequate padding around the logo so it stands out.
 3. **Backgrounds**: Use the white logo variant on dark backgrounds and the dark logo variant on light backgrounds.
 
-*(Note: Actual image files will be added in a future commit.)*
+

@@ -11,6 +11,7 @@ iobend generate <template> <name> [options]
 ```
 
 **Options:**
+
 - `--dry-run`: Preview the files that will be created without writing them to disk.
 - `--force`: Overwrite existing files if they conflict with the generated output.
 - `--interactive`: Answer template variables via an interactive prompt (default).
@@ -18,11 +19,13 @@ iobend generate <template> <name> [options]
 ## Examples
 
 Generate a new React component:
+
 ```bash
 iobend generate component Button
 ```
 
 Generate a Dockerfile for a Node.js app without prompts:
+
 ```bash
 iobend generate dockerfile --node-version 18 --port 3000
 ```

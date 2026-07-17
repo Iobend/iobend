@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="assets/banner-placeholder.png" alt="IOBend Banner" width="100%" />
+  <img src="assets/IOBend.jpg" alt="IOBend Logo" width="200" />
 
-  # IOBend
+# IOBend
 
-  **A cross-platform developer environment diagnostics and automation platform.**
+**A cross-platform developer environment diagnostics and automation platform.**
 
-  [![GitHub release](https://img.shields.io/github/v/release/iobend/iobend)](https://github.com/iobend/iobend/releases)
-  [![License](https://img.shields.io/github/license/iobend/iobend)](LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![GitHub release](https://img.shields.io/github/v/release/iobend/iobend)](https://github.com/iobend/iobend/releases)
+[![License](https://img.shields.io/github/license/iobend/iobend)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 </div>
 
 ---
@@ -28,9 +28,10 @@ IOBend helps developers validate, troubleshoot, repair, and prepare their develo
 
 ## 🚀 Why IOBend?
 
-Modern developer environments are complex. You have package managers, language runtimes, cloud CLI tools, and containers. When something breaks, hours are wasted debugging the environment instead of writing code. 
+Modern developer environments are complex. You have package managers, language runtimes, cloud CLI tools, and containers. When something breaks, hours are wasted debugging the environment instead of writing code.
 
 IOBend provides a single, unified interface to:
+
 1. Validate that your machine meets a project's requirements.
 2. Automatically fix common configuration drifts.
 3. Manage complex toolchains without deep-diving into individual tool documentation.
@@ -38,25 +39,32 @@ IOBend provides a single, unified interface to:
 ## 📦 Installation
 
 ### npm (Global)
+
 Requires Node.js 18 or later.
+
 ```bash
 npm install -g iobend
 ```
 
 ### WinGet (Windows)
+
 ```powershell
 winget install IOBend
 ```
 
 ### Homebrew (macOS)
-*(Coming soon! See [homebrew/README.md](homebrew/README.md) for updates)*
+
+_(Coming soon! See [homebrew/README.md](homebrew/README.md) for updates)_
+
 ```bash
 brew tap iobend/tap
 brew install iobend
 ```
 
 ### Linux (APT / RPM)
-*(Coming soon! Standalone binaries are planned for our next release)*
+
+_(Coming soon! Standalone binaries are planned for our next release)_
+
 ```bash
 # Example curl script placeholder
 curl -sL https://iobend.io/install.sh | bash
@@ -65,30 +73,33 @@ curl -sL https://iobend.io/install.sh | bash
 ## ⚡ Quick Start
 
 Validate your current environment:
+
 ```bash
 iobend doctor
 ```
 
 Authenticate with your cloud provider:
+
 ```bash
 iobend auth login --provider aws
 ```
 
 Start the interactive UI:
+
 ```bash
 iobend ui
 ```
 
 ## 🛠 Commands Overview
 
-| Command | Description |
-|---|---|
-| `iobend doctor` | Run diagnostics on your system. |
-| `iobend auth` | Manage authentication states. |
-| `iobend ui` | Launch the local web dashboard. |
-| `iobend generate` | Scaffold new resources. |
-| `iobend container`| Manage Docker/Kubernetes setups. |
-| `iobend mcp` | Configure Model Context Protocol. |
+| Command            | Description                       |
+| ------------------ | --------------------------------- |
+| `iobend doctor`    | Run diagnostics on your system.   |
+| `iobend auth`      | Manage authentication states.     |
+| `iobend ui`        | Launch the local web dashboard.   |
+| `iobend generate`  | Scaffold new resources.           |
+| `iobend container` | Manage Docker/Kubernetes setups.  |
+| `iobend mcp`       | Configure Model Context Protocol. |
 
 ## 📚 Documentation
 
@@ -105,8 +116,8 @@ iobend ui
 ## 🌐 Community
 
 - [GitHub Discussions](https://github.com/iobend/iobend/discussions)
-- [Discord Server](#) *(Link coming soon)*
-- [Blog](#) *(Link coming soon)*
+- [Discord Server](#) _(Link coming soon)_
+- [Blog](#) _(Link coming soon)_
 
 ## 🤝 Contributing
 

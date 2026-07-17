@@ -11,6 +11,7 @@ iobend ui [options]
 ```
 
 **Options:**
+
 - `--port <number>`: Specify the port to run the UI on (default: 8080).
 - `--host <address>`: Specify the host address (default: localhost).
 - `--no-open`: Start the server without automatically opening the browser.
@@ -18,11 +19,13 @@ iobend ui [options]
 ## Examples
 
 Start the UI on the default port:
+
 ```bash
 iobend ui
 ```
 
 Start the UI on a custom port without opening the browser:
+
 ```bash
 iobend ui --port 3000 --no-open
 ```

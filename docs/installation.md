@@ -41,6 +41,18 @@ For now, you can download the latest binary using our install script:
 curl -sL https://iobend.io/install.sh | bash
 ```
 
+## Shell Auto-Completion Setup
+
+IOBend includes a 1-Click auto-completion installer for PowerShell, Zsh, Bash, and Fish:
+
+```bash
+# Auto-detect shell and install completion to shell profile ($PROFILE, ~/.zshrc, ~/.bashrc, or config.fish)
+iobend completion --install
+
+# Install specifically for Windows PowerShell:
+iobend completion -s powershell --install
+```
+
 ## Examples
 
 To verify your installation, check the version:

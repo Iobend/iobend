@@ -8,7 +8,7 @@
 [![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
 [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/iobend/iobend/ci.yml?branch=main)](https://github.com/iobend/iobend/actions)
+
 
 [Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction)
 </div>

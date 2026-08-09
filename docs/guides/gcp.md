@@ -17,6 +17,7 @@ iobend auth login --provider gcp
 ```
 
 You can specify a default project via the global configuration:
+
 ```bash
 iobend config set cloud.gcp.project my-gcp-project-12345 --global
 ```
@@ -32,10 +33,12 @@ iobend generate infrastructure --provider gcp --type cloud-run
 ```
 
 Deploying:
+
 ```bash
 iobend run deploy
 ```
-*(Assuming `deploy` in `iobend.json` wraps the `gcloud run deploy` command, utilizing IOBend's active authentication context).*
+
+_(Assuming `deploy` in `iobend.json` wraps the `gcloud run deploy` command, utilizing IOBend's active authentication context)._
 
 ## Artifact Registry
 

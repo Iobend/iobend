@@ -1,7 +1,8 @@
 ---
 title: "Contributing"
 description: "How to contribute to the IOBend CLI."
-keywords: ["contributing", "open source", "development", "architecture", "iobend"]
+keywords:
+  ["contributing", "open source", "development", "architecture", "iobend"]
 ---
 
 # Contributing to IOBend
@@ -13,21 +14,25 @@ We are thrilled that you'd like to contribute to IOBend! Whether it's fixing a b
 To run IOBend locally from source, you need Node.js (v18+) and Git installed.
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/iobend/iobend.git
    cd iobend
    ```
 
 2. **Install dependencies:**
+
    ```bash
    npm install
    ```
 
 3. **Link the CLI locally:**
+
    ```bash
    npm link
    ```
-   *Now, typing `iobend` in your terminal will execute your local source code.*
+
+   _Now, typing `iobend` in your terminal will execute your local source code._
 
 4. **Run the test suite:**
    ```bash
@@ -68,6 +73,7 @@ To compile the TypeScript code down to JavaScript for production:
 ```bash
 npm run build
 ```
+
 This outputs the compiled files to the `dist/` directory.
 
 ## Release Process (Maintainers Only)

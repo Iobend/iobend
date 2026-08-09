@@ -27,27 +27,27 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
-          
+          node-version: "18"
+
       - name: Install IOBend
         run: npm install -g iobend
-        
+
       - name: Run Diagnostics
         run: iobend doctor --json > diagnostics.json
-        
+
       - name: Run Tests
         run: iobend run test
 ```
@@ -57,8 +57,8 @@ jobs:
 If your CI pipeline needs to push containers or deploy infrastructure, it needs authentication. Use GitHub Secrets combined with IOBend's token support.
 
 ```yaml
-      - name: Authenticate IOBend
-        run: iobend auth login --provider aws --token ${{ secrets.AWS_SESSION_TOKEN }}
+- name: Authenticate IOBend
+  run: iobend auth login --provider aws --token ${{ secrets.AWS_SESSION_TOKEN }}
 ```
 
 > [!WARNING]

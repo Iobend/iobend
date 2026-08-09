@@ -1,7 +1,8 @@
 ---
 title: "IOBend Documentation"
 description: "Developer environment manager for diagnostics, setup, and DevOps automation."
-keywords: ["iobend", "cli", "devops", "platform engineering", "developer experience"]
+keywords:
+  ["iobend", "cli", "devops", "platform engineering", "developer experience"]
 ---
 
 # IOBend Documentation
@@ -27,6 +28,7 @@ Whether you're a student setting up your first project or an enterprise team orc
 ## Supported Platforms
 
 IOBend provides native support for:
+
 - **macOS** (Apple Silicon & Intel)
 - **Linux** (x64, arm64)
 - **Windows** (x64 via native installer and WSL2)

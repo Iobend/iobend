@@ -9,6 +9,7 @@ keywords: ["faq", "questions", "help", "iobend", "support"]
 Here are 50 of the most frequently asked questions about IOBend, categorized for your convenience.
 
 ## General
+
 **1. What is IOBend?**
 IOBend is a developer environment manager and CLI tool designed to simplify local development, environment diagnostics, and DevOps automation.
 
@@ -19,7 +20,7 @@ It's built for developers, DevOps engineers, and platform teams who want a stand
 Yes, the core CLI is open-source and free forever.
 
 **4. Does IOBend replace Docker?**
-No. IOBend acts as an orchestration layer *above* Docker (or Podman), making container management easier and more integrated with your project configuration.
+No. IOBend acts as an orchestration layer _above_ Docker (or Podman), making container management easier and more integrated with your project configuration.
 
 **5. Does IOBend replace Terraform?**
 No. IOBend can scaffold Terraform templates and wrap `terraform apply` commands, but it relies on Terraform/OpenTofu under the hood.
@@ -40,6 +41,7 @@ Run `iobend update` or use your system package manager (e.g., `brew upgrade iobe
 The source code is hosted on [GitHub](https://github.com/iobend/iobend).
 
 ## Installation & Setup
+
 **11. Why do I get a permission error when installing via npm?**
 This happens when your global `node_modules` is owned by `root`. Use a node version manager like `nvm` or fix your npm permissions.
 
@@ -56,6 +58,7 @@ Yes! We provide `linux-arm64` binaries that work natively on Raspberry Pi 4 and 
 Yes, via npm: `npm install -g iobend@1.0.0`.
 
 ## Projects & Configuration
+
 **16. What is `iobend.json`?**
 It is the core configuration file that defines your project's runtime, scripts, and environment needs.
 
@@ -75,6 +78,7 @@ Yes, you can place a master `iobend.json` at the root and override settings in s
 Use environment variables prefixed with `IOBEND_` (e.g., `IOBEND_PORT=8080`).
 
 ## Templates & Generation
+
 **22. How do I list available templates?**
 Run `iobend generate` without arguments to see the interactive picker.
 
@@ -91,6 +95,7 @@ Yes, using Handlebars syntax and a `schema.json` file.
 Yes, pass arguments directly: `iobend generate nodejs --name my-app`.
 
 ## Containers (Docker/Podman)
+
 **27. Do I need Docker Desktop installed?**
 You need a container engine. Docker Desktop, OrbStack, or Podman all work.
 
@@ -110,6 +115,7 @@ Yes, passing `--platform linux/amd64,linux/arm64` to `iobend container build` wo
 Yes, it automatically detects and wraps `docker-compose.yml` files.
 
 ## Cloud & Deployment
+
 **33. Which cloud providers are supported?**
 AWS, Azure, and GCP are supported via official plugins and templates.
 
@@ -126,6 +132,7 @@ Our `infrastructure` templates generate Terraform or Bicep files based on best p
 Use `iobend container push <image> <registry_url>`.
 
 ## CI/CD Workflow
+
 **38. Can I run IOBend in GitHub Actions?**
 Yes, we provide a `setup-iobend` action, or you can `npm install -g iobend`.
 
@@ -136,6 +143,7 @@ Yes, by default it exits with a non-zero code on failure. Use `--warn-only` if y
 Map your CI provider's secrets to environment variables; IOBend will pick them up automatically.
 
 ## MCP & AI Integration
+
 **41. What is the MCP command?**
 It manages Model Context Protocol servers, allowing AI assistants to interact with your local environment securely.
 
@@ -146,6 +154,7 @@ Run `iobend mcp start`, which outputs a configuration string to paste into your 
 Yes, it runs locally. By default, it only allows read-only tool access unless explicitly granted write permissions.
 
 ## Troubleshooting
+
 **44. What should I do if a command hangs?**
 Run it again with the `--verbose` flag to see where it is getting stuck.
 
@@ -159,6 +168,7 @@ Delete `~/.iobend/config.json`.
 Please open an issue on our [GitHub repository](https://github.com/iobend/iobend/issues).
 
 ## Enterprise
+
 **48. Is there an Enterprise license?**
 Yes, for advanced features like SSO, RBAC, and centralized policy enforcement. See the [Enterprise Guide](enterprise.md).
 

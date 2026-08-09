@@ -10,14 +10,16 @@ The IOBend platform exposes a REST API that allows you to interact with the Ente
 
 ## Authentication
 
-All API requests must be authenticated using a Bearer token. 
+All API requests must be authenticated using a Bearer token.
 
 If you are using the CLI, you can generate a Personal Access Token (PAT):
+
 ```bash
 iobend auth token create --name "ci-script" --scopes "api:read,telemetry:write"
 ```
 
 Pass this token in the `Authorization` header of your HTTP requests:
+
 ```http
 GET /v1/templates HTTP/1.1
 Host: api.iobend.dev
@@ -27,9 +29,11 @@ Authorization: Bearer iob_1234567890abcdef
 ## REST API (v1)
 
 ### `GET /v1/templates`
+
 List all templates available to your organization.
 
 **Response (200 OK):**
+
 ```json
 {
   "data": [
@@ -43,9 +47,11 @@ List all templates available to your organization.
 ```
 
 ### `POST /v1/telemetry/events`
+
 Manually ingest a telemetry event (useful for custom CI runners).
 
 **Request Body:**
+
 ```json
 {
   "event": "build_failed",

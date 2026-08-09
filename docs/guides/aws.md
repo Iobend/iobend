@@ -25,6 +25,7 @@ You can scaffold standard AWS architecture (like VPCs, ECS Clusters, or Serverle
 ```bash
 iobend generate infrastructure --provider aws --type serverless
 ```
+
 This generates an infrastructure-as-code template (compatible with Terraform or AWS CDK) pre-configured with best practices.
 
 ## Deploying to AWS
@@ -40,6 +41,7 @@ Once your project is ready, use the built-in deploy script if configured in `iob
 ```
 
 Then run:
+
 ```bash
 iobend run deploy
 ```

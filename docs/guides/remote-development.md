@@ -18,6 +18,7 @@ iobend run dev
 ```
 
 You can port-forward your development server securely:
+
 ```bash
 ssh -L 3000:localhost:3000 dev-server
 ```
@@ -35,7 +36,9 @@ iobend container start --spec devcontainer
 When developing remotely, you can connect your local editor's AI assistant to the remote machine's IOBend MCP server.
 
 Start the MCP server on the remote box:
+
 ```bash
 iobend mcp serve --port 8080 --host 0.0.0.0
 ```
-*(Ensure this port is secured via VPN or SSH tunneling).*
+
+_(Ensure this port is secured via VPN or SSH tunneling)._

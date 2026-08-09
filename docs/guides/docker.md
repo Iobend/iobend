@@ -19,6 +19,7 @@ IOBend reads your `iobend.json` to infer build contexts and arguments.
 ```bash
 iobend container build .
 ```
+
 If your project requires specific build args (e.g., `GITHUB_TOKEN`), IOBend can securely inject them from your authenticated profile without leaving them in the shell history.
 
 ## Starting Environments
@@ -28,7 +29,8 @@ If your project contains a `docker-compose.yml`, IOBend will automatically detec
 ```bash
 iobend container start
 ```
-*This wraps `docker compose up -d`, streaming logs cleanly and waiting for health checks to pass.*
+
+_This wraps `docker compose up -d`, streaming logs cleanly and waiting for health checks to pass._
 
 ## Troubleshooting Containers
 

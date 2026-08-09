@@ -1,7 +1,15 @@
 ---
 title: "Configuration"
 description: "Configure IOBend globally and per-project."
-keywords: ["config", "settings", "iobend.json", "environment variables", "profiles", "secrets"]
+keywords:
+  [
+    "config",
+    "settings",
+    "iobend.json",
+    "environment variables",
+    "profiles",
+    "secrets",
+  ]
 ---
 
 # Configuration
@@ -22,6 +30,7 @@ IOBend resolves configuration values in the following order of precedence (highe
 Your global configuration file is located at `~/.iobend/config.json` (or `%USERPROFILE%\.iobend\config.json` on Windows). It stores machine-wide preferences.
 
 To view or edit these settings, use the `iobend config` command:
+
 ```bash
 iobend config set core.editor "code --wait" --global
 ```
@@ -31,6 +40,7 @@ iobend config set core.editor "code --wait" --global
 The `iobend.json` file lives at the root of your project repository. It defines exactly how the project should be built, run, and deployed by the CLI.
 
 **Example `iobend.json`:**
+
 ```json
 {
   "project": {
@@ -56,6 +66,7 @@ The `iobend.json` file lives at the root of your project repository. It defines 
 Any configuration property can be overridden using environment variables prefixed with `IOBEND_`. Nested properties use double underscores `__`.
 
 For example, to override `runtime.engine`, set:
+
 ```bash
 export IOBEND_RUNTIME__ENGINE="podman"
 ```
@@ -65,11 +76,13 @@ export IOBEND_RUNTIME__ENGINE="podman"
 Profiles allow you to switch between different contexts (e.g., `personal`, `work`, `staging`, `production`) within the same machine or project.
 
 To define a profile in your global config:
+
 ```bash
 iobend config set profiles.work.aws.region "us-west-2" --global
 ```
 
 Activate it via CLI flag:
+
 ```bash
 iobend doctor --profile work
 ```

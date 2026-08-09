@@ -23,6 +23,7 @@ If you are running inside a container, IOBend maps your local source directory t
 If you work on multiple projects, you've likely encountered port conflicts or global dependency version mismatches (e.g., Project A needs Node 16, Project B needs Node 18).
 
 IOBend solves this by isolating environments:
+
 - **Ports**: Automatically remaps conflicting ports if requested.
 - **Runtimes**: Uses isolated runtimes specified in `iobend.json`.
 

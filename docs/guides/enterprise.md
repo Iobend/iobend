@@ -17,6 +17,7 @@ iobend config set templates.registry "git@github.com:my-org/iobend-templates.git
 ```
 
 Developers then run:
+
 ```bash
 iobend generate our-standard-api
 ```

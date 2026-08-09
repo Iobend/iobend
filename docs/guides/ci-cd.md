@@ -1,7 +1,15 @@
 ---
 title: "CI/CD Integration"
 description: "How to use IOBend in your CI/CD workflows."
-keywords: ["ci", "cd", "continuous integration", "continuous deployment", "pipelines", "iobend"]
+keywords:
+  [
+    "ci",
+    "cd",
+    "continuous integration",
+    "continuous deployment",
+    "pipelines",
+    "iobend",
+  ]
 ---
 
 # CI/CD Integration
@@ -17,6 +25,7 @@ Traditionally, developers maintain a `Dockerfile` for local development, a `.git
 With IOBend, the configuration is centralized in `iobend.json`.
 
 Your CI script simply becomes:
+
 ```bash
 iobend install
 iobend doctor --json > report.json
@@ -27,6 +36,7 @@ iobend container build .
 ## Supported Providers
 
 IOBend can run inside any standard CI/CD provider:
+
 - **GitHub Actions**: See the [GitHub Actions Guide](github-actions.md).
 - **GitLab CI**: Use our official GitLab Docker image `registry.iobend.dev/cli:latest`.
 - **CircleCI**: Execute IOBend commands directly via the `run` step.

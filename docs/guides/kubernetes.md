@@ -35,7 +35,8 @@ Apply your generated manifests to the active cluster:
 ```bash
 iobend run k8s-apply
 ```
-*(You can define `k8s-apply` in `iobend.json` to execute `kubectl apply -f k8s/`).*
+
+_(You can define `k8s-apply` in `iobend.json` to execute `kubectl apply -f k8s/`)._
 
 ## Managing Contexts
 

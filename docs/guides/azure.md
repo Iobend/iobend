@@ -31,6 +31,7 @@ iobend generate infrastructure --provider azure --type container-app
 IOBend can fetch secrets dynamically from Azure Key Vault at runtime, injecting them into your local environment or CI pipeline without storing them on disk.
 
 Update your `iobend.json`:
+
 ```json
 {
   "secrets": {

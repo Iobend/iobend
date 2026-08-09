@@ -1,16 +1,16 @@
 <div align="center">
   <img src="assets/IOBend.jpg" alt="IOBend Logo" width="150" />
-  
-  # IOBend CLI
-  
-  **Developer environment manager for diagnostics, setup, and DevOps automation.**
 
-  [![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
-  [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
-  [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
-  [![Build Status](https://img.shields.io/github/actions/workflow/status/iobend/iobend/ci.yml?branch=main)](https://github.com/iobend/iobend/actions)
-  
-  [Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction) 
+# IOBend CLI
+
+**Developer environment manager for diagnostics, setup, and DevOps automation.**
+
+[![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
+[![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
+[![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/iobend/iobend/ci.yml?branch=main)](https://github.com/iobend/iobend/actions)
+
+[Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction)
 </div>
 
 ---
@@ -37,22 +37,26 @@ Built for **Developers**, **Platform Engineers**, and **Enterprise Teams**, IOBe
 ## Installation
 
 ### macOS (Homebrew)
+
 ```bash
 brew tap iobend/tap
 brew install iobend
 ```
 
 ### Windows (WinGet)
+
 ```powershell
 winget install iobend
 ```
 
 ### Linux & macOS (npm)
+
 ```bash
 npm install -g iobend
 ```
 
 ### Verify Installation
+
 ```bash
 iobend --version
 ```
@@ -62,20 +66,25 @@ iobend --version
 ## Getting Started
 
 ### 1. Diagnose Your Environment
+
 Ensure your machine is ready for development by running the built-in diagnostic tool.
+
 ```bash
 iobend doctor
 ```
 
-
 ### 2. Scaffold a New Project
+
 Create a complete Node.js project with Docker and GitHub Actions configurations.
+
 ```bash
 iobend generate --template nodejs-docker
 ```
 
 ### 3. Connect Integrations
+
 Authenticate with your cloud provider or CI/CD platform.
+
 ```bash
 iobend auth login --provider aws
 ```
@@ -92,7 +101,7 @@ iobend auth login --provider aws
 - [ ] Advanced GitOps integration
 - [ ] Self-hosted Enterprise dashboard
 
-*See the [full roadmap](docs/roadmap.md) for more details.*
+_See the [full roadmap](docs/roadmap.md) for more details._
 
 ---
 
@@ -104,8 +113,10 @@ We welcome contributions from the community! If you're interested in improving I
 
 ## Community & Support
 
-- **Documentation:** [Read the full docs](https://docs.iobend.dev)
-- **Discord:** [Join our community server](https://discord.gg/iobend)
+- **Documentation:** [Read the full docs](https://iobend.vercel.app/docs)
+
+<!-- - **Discord:** [Join our community server](https://discord.gg/iobend) -->
+
 - **Issues:** [Report bugs or request features](https://github.com/iobend/iobend/issues)
 - **X / Twitter:** [@IOBendDev](https://twitter.com/IOBendDev)
 

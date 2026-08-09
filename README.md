@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://via.placeholder.com/150x150?text=IOBend+Logo" alt="IOBend Logo" width="150" />
+  <img src="assets/IOBend.jpg" alt="IOBend Logo" width="150" />
   
   # IOBend CLI
   
@@ -10,7 +10,7 @@
   [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
   [![Build Status](https://img.shields.io/github/actions/workflow/status/iobend/iobend/ci.yml?branch=main)](https://github.com/iobend/iobend/actions)
   
-  [Documentation](https://docs.iobend.dev) • [Installation](#installation) • [Getting Started](#getting-started) • [Community](#community)
+  [Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction) 
 </div>
 
 ---
@@ -66,8 +66,7 @@ Ensure your machine is ready for development by running the built-in diagnostic 
 ```bash
 iobend doctor
 ```
-*Output:*
-![Diagnostic Screenshot](https://via.placeholder.com/800x400?text=Screenshot:+iobend+doctor)
+
 
 ### 2. Scaffold a New Project
 Create a complete Node.js project with Docker and GitHub Actions configurations.
@@ -88,6 +87,7 @@ iobend auth login --provider aws
 - [x] Initial CLI release (v1.0.0)
 - [x] macOS and Linux support
 - [x] Windows native installer
+- [x] Initial CLI release (v2.0.0)
 - [ ] Kubernetes cluster generation
 - [ ] Advanced GitOps integration
 - [ ] Self-hosted Enterprise dashboard

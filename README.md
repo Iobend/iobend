@@ -1,9 +1,9 @@
 <div align="center">
   <img src="assets/IOBend.jpg" alt="IOBend Logo" width="150" />
 
-# IOBend CLI
+# IOBend — The Developer Control Plane
 
-**Developer environment manager for diagnostics, setup, and DevOps automation.**
+**IOBend connects your development environment, tools, workflows, and AI in one platform.**
 
 [![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
@@ -17,46 +17,101 @@
 
 ## What is IOBend?
 
-IOBend is a next-generation CLI tool designed to simplify, automate, and standardize developer environments. Whether you're debugging local setup issues, configuring cloud infrastructure, or orchestrating complex DevOps workflows, IOBend provides a single, unified interface.
+IOBend is a unified platform connecting your development environment, tools, workflows, and AI. It provides a standardized control plane to diagnose local setup issues, scaffold projects, orchestrate container workflows, and manage environment configurations.
 
-Built for **Developers**, **Platform Engineers**, and **Enterprise Teams**, IOBend brings the robust design principles of Docker and Terraform directly into your development workflow.
+IOBend is one platform with multiple interfaces, rather than a collection of unrelated tools. It brings the robust design principles of modern infrastructure tooling directly into your local development workflow.
 
 ---
 
-## Features
+## One Platform. Multiple Ways to Work.
 
-- 🚀 **Environment Diagnostics:** Automatically detect and resolve misconfigurations with `iobend doctor`.
-- 🛠 **Instant Scaffolding:** Generate boilerplates, cloud integrations, and CI pipelines with `iobend generate`.
-- 🐳 **Container Management:** Effortlessly build, run, and orchestrate local containers using `iobend container`.
-- 🔐 **Secure Secrets:** Built-in secret management and environment isolation.
-- ⚡ **Cross-Platform:** Native support for macOS, Linux, and Windows.
-- 🧩 **Extensible:** Leverage the Model Context Protocol (MCP) to plug in custom tools and LLMs.
+Interact with IOBend through the interface that best suits your workflow. Whether you prefer the speed of the terminal, the context of your IDE, or the visibility of a web dashboard, IOBend integrates seamlessly into your daily operations.
+
+---
+
+## Why IOBend?
+
+Modern development requires juggling multiple discrete tools, scripts, and environments. IOBend centralizes these operations into a cohesive system that standardizes environments across teams, reduces context switching, and leverages AI to provide actionable developer intelligence.
+
+---
+
+## Detect → Understand → Act → Automate
+
+IOBend follows a systematic workflow to streamline development:
+
+* **Detect** — Identify environment, configuration, dependency, and workflow problems before they block your progress.
+* **Understand** — Use context and AI-powered intelligence to diagnose what is happening and explain why.
+* **Act** — Execute targeted recommendations and tasks through the CLI, IDE, or integrations.
+* **Automate** — Turn repetitive workflows, configurations, and fixes into repeatable automation for your team.
+
+---
+
+## Core Capabilities
+
+IOBend provides a robust set of capabilities to manage your development lifecycle:
+
+- 🚀 **Environment Diagnostics:** Detect and diagnose misconfigurations and missing dependencies across your system.
+  ```bash
+  iobend doctor
+  ```
+- 🛠 **Project Scaffolding:** Generate standardized boilerplates, configurations, and CI pipelines instantly.
+  ```bash
+  iobend generate --template nodejs-docker
+  ```
+- 🐳 **Container Workflows:** Effortlessly orchestrate local containers and containerized development environments.
+  ```bash
+  iobend container
+  ```
+- 🔐 **Environment & Secrets:** Manage authentication, environment variables, and secure secrets securely.
+  ```bash
+  iobend auth
+  ```
+- 🧠 **AI-Powered Developer Intelligence:** Receive contextual diagnostic assistance, explanations, and actionable recommendations.
+- 🧩 **MCP / Extensibility:** Leverage the Model Context Protocol (MCP) to plug in custom tools and connect with LLMs.
+  ```bash
+  iobend mcp
+  ```
+
+---
+
+## IOBend Interfaces
+
+### 1. CLI (Available)
+Execute developer workflows, diagnostic commands, and automation scripts directly from the terminal. 
+
+### 2. VS Code Extension (Available)
+Use IOBend directly inside your IDE for seamless, in-context intelligence and environment management.
+
+### 3. Cloud (Building / Planned)
+Manage projects, environments, configurations, cloud integrations, and team collaboration workflows from a centralized web dashboard.
+
+### 4. AI (Available / Building)
+Provide contextual developer intelligence, diagnostics, recommendations, and workflow assistance across all IOBend surfaces.
+
+### 5. SDK (Coming Soon / Planned)
+An extensibility layer for building custom integrations, automations, plugins, and custom tooling on top of the IOBend platform.
 
 ---
 
 ## Installation
 
 ### macOS (Homebrew)
-
 ```bash
 brew tap iobend/tap
 brew install iobend
 ```
 
 ### Windows (WinGet)
-
 ```powershell
 winget install iobend
 ```
 
 ### Linux & macOS (npm)
-
 ```bash
 npm install -g iobend
 ```
 
 ### Verify Installation
-
 ```bash
 iobend --version
 ```
@@ -66,25 +121,19 @@ iobend --version
 ## Getting Started
 
 ### 1. Diagnose Your Environment
-
 Ensure your machine is ready for development by running the built-in diagnostic tool.
-
 ```bash
 iobend doctor
 ```
 
 ### 2. Scaffold a New Project
-
-Create a complete Node.js project with Docker and GitHub Actions configurations.
-
+Create a complete Node.js project with Docker configurations.
 ```bash
 iobend generate --template nodejs-docker
 ```
 
 ### 3. Connect Integrations
-
 Authenticate with your cloud provider or CI/CD platform.
-
 ```bash
 iobend auth login --provider aws
 ```
@@ -97,11 +146,20 @@ iobend auth login --provider aws
 - [x] macOS and Linux support
 - [x] Windows native installer
 - [x] Initial CLI release (v2.0.0)
-- [ ] Kubernetes cluster generation
-- [ ] Advanced GitOps integration
-- [ ] Self-hosted Enterprise dashboard
+- [x] VS Code Extension integration
+- [ ] Advanced GitOps integration (Planned)
+- [ ] Kubernetes cluster generation (Planned)
+- [ ] Self-hosted Enterprise dashboard (Planned)
+- [ ] Cloud Platform and Team Workflows (Building)
+- [ ] Extensibility SDK (Coming Soon)
 
 _See the [full roadmap](docs/roadmap.md) for more details._
+
+---
+
+## Who Is IOBend For?
+
+IOBend is built for **Developers**, **Platform Engineers**, and **Enterprise Teams** who need a structured, reliable, and intelligent control plane to manage the increasingly complex landscape of modern software development.
 
 ---
 
@@ -114,9 +172,6 @@ We welcome contributions from the community! If you're interested in improving I
 ## Community & Support
 
 - **Documentation:** [Read the full docs](https://iobend.vercel.app/docs)
-
-<!-- - **Discord:** [Join our community server](https://discord.gg/iobend) -->
-
 - **Issues:** [Report bugs or request features](https://github.com/iobend/iobend/issues)
 - **X / Twitter:** [@IOBendDev](https://twitter.com/IOBendDev)
 

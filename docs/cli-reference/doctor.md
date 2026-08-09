@@ -8,7 +8,7 @@ keywords: ["cli", "doctor", "diagnostics", "troubleshooting", "iobend"]
 
 ## Purpose
 
-The `iobend doctor` command performs a comprehensive diagnostic check of your development environment. It verifies that required tools (like Node.js, Docker, Git) are installed, checks network connectivity, and validates your IOBend configuration.
+The `iobend doctor` command performs a comprehensive diagnostic check of your development environment. It automatically detects what runtimes and toolchains are required based on your project files (e.g., `package.json`, `requirements.txt`, `Dockerfile`), checks network connectivity, and validates your system configuration.
 
 ## Syntax
 
@@ -25,15 +25,22 @@ This command does not take any positional arguments.
 | Option            | Description                                        | Default |
 | ----------------- | -------------------------------------------------- | ------- |
 | `--fix`           | Attempt to automatically fix detected issues.      | `false` |
+| `--advanced`, `-a`| Run an advanced interactive scan for specific tools| `false` |
 | `--verbose`, `-v` | Print detailed logs during the diagnostic process. | `false` |
 | `--json`          | Output the diagnostic results in JSON format.      | `false` |
 
 ## Examples
 
-**Run a standard health check:**
+**Run a standard auto-detected health check:**
 
 ```bash
 iobend doctor
+```
+
+**Run an advanced interactive scan (select specific tools manually):**
+
+```bash
+iobend doctor -a
 ```
 
 **Automatically fix minor issues:**

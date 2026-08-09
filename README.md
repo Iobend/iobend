@@ -62,10 +62,10 @@ IOBend provides a robust set of capabilities to manage your development lifecycl
   ```bash
   iobend container
   ```
-- 🔐 **Environment & Secrets:** Manage authentication, environment variables, and secure secrets securely.
-  ```bash
-  iobend auth
-  ```
+- 🔐 **Authentication & Environment:** Manage your CLI session, identity, and secure secrets.
+  - `iobend login` — Authenticates your local CLI with your IOBend account. Opens a browser-based OAuth flow.
+  - `iobend logout` — Logs out the currently authenticated CLI session. Removes the locally stored API keys.
+  - `iobend whoami` — Displays the currently authenticated user profile, email, plan, workspace, and context.
 - 🧠 **AI-Powered Developer Intelligence:** Receive contextual diagnostic assistance, explanations, and actionable recommendations.
 - 🧩 **MCP / Extensibility:** Leverage the Model Context Protocol (MCP) to plug in custom tools and connect with LLMs.
   ```bash

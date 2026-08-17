@@ -82,22 +82,22 @@ Execute developer workflows, diagnostic commands, and automation scripts directl
 ### 2. VS Code Extension (Available)
 Use IOBend directly inside your IDE for seamless, in-context intelligence and environment management.
 
-### 3. Cloud (Building / Planned)
+### 3. Cloud (Live)
 Manage projects, environments, configurations, cloud integrations, and team collaboration workflows from a centralized web dashboard.
 
-### 4. AI (Available / Building)
+### 4. AI (Live)
 Provide contextual developer intelligence, diagnostics, recommendations, and workflow assistance across all IOBend surfaces.
 
-### 5. SDK (Coming Soon / Planned)
-An extensibility layer for building custom integrations, automations, plugins, and custom tooling on top of the IOBend platform.
+### 5. SDK (Live)
+An enterprise TypeScript/JavaScript extensibility layer for building custom integrations, zero-trust secret injection, and custom tooling on top of the IOBend platform.
 
 ---
 
 ## Installation
 
-### macOS (Homebrew)
+### macOS & Linux (Homebrew)
 ```bash
-brew tap iobend/tap
+brew tap Iobend/tap
 brew install iobend
 ```
 
@@ -106,7 +106,7 @@ brew install iobend
 winget install iobend
 ```
 
-### Linux & macOS (npm)
+### Linux, macOS & Windows (npm)
 ```bash
 npm install -g iobend
 ```
@@ -147,11 +147,11 @@ iobend auth login --provider aws
 - [x] Windows native installer
 - [x] Initial CLI release (v2.0.0)
 - [x] VS Code Extension integration
-- [ ] Advanced GitOps integration (Planned)
-- [ ] Kubernetes cluster generation (Planned)
-- [ ] Self-hosted Enterprise dashboard (Planned)
-- [ ] Cloud Platform and Team Workflows (Building)
-- [ ] Extensibility SDK (Coming Soon)
+- [x] Official Homebrew Tap (macOS & Linux)
+- [x] Extensibility SDK (@iobend/sdk)
+- [x] Cloud Platform and Web Management Console
+- [ ] Advanced GitOps integration (In Progress)
+- [ ] Kubernetes cluster auto-provisioning (In Progress)
 
 _See the [full roadmap](docs/roadmap.md) for more details._
 

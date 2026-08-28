@@ -22,12 +22,12 @@ This command does not take any positional arguments.
 
 ## Options
 
-| Option            | Description                                        | Default |
-| ----------------- | -------------------------------------------------- | ------- |
-| `--fix`           | Attempt to automatically fix detected issues.      | `false` |
-| `--advanced`, `-a`| Run an advanced interactive scan for specific tools| `false` |
-| `--verbose`, `-v` | Print detailed logs during the diagnostic process. | `false` |
-| `--json`          | Output the diagnostic results in JSON format.      | `false` |
+| Option             | Description                                         | Default |
+| ------------------ | --------------------------------------------------- | ------- |
+| `--fix`            | Attempt to automatically fix detected issues.       | `false` |
+| `--advanced`, `-a` | Run an advanced interactive scan for specific tools | `false` |
+| `--verbose`, `-v`  | Print detailed logs during the diagnostic process.  | `false` |
+| `--json`           | Output the diagnostic results in JSON format.       | `false` |
 
 ## Examples
 

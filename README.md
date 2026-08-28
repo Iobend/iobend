@@ -9,7 +9,6 @@
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
 [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
 
-
 [Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction)
 </div>
 
@@ -39,10 +38,10 @@ Modern development requires juggling multiple discrete tools, scripts, and envir
 
 IOBend follows a systematic workflow to streamline development:
 
-* **Detect** — Identify environment, configuration, dependency, and workflow problems before they block your progress.
-* **Understand** — Use context and AI-powered intelligence to diagnose what is happening and explain why.
-* **Act** — Execute targeted recommendations and tasks through the CLI, IDE, or integrations.
-* **Automate** — Turn repetitive workflows, configurations, and fixes into repeatable automation for your team.
+- **Detect** — Identify environment, configuration, dependency, and workflow problems before they block your progress.
+- **Understand** — Use context and AI-powered intelligence to diagnose what is happening and explain why.
+- **Act** — Execute targeted recommendations and tasks through the CLI, IDE, or integrations.
+- **Automate** — Turn repetitive workflows, configurations, and fixes into repeatable automation for your team.
 
 ---
 
@@ -77,18 +76,23 @@ IOBend provides a robust set of capabilities to manage your development lifecycl
 ## IOBend Interfaces
 
 ### 1. CLI (Available)
-Execute developer workflows, diagnostic commands, and automation scripts directly from the terminal. 
+
+Execute developer workflows, diagnostic commands, and automation scripts directly from the terminal.
 
 ### 2. VS Code Extension (Available)
+
 Use IOBend directly inside your IDE for seamless, in-context intelligence and environment management.
 
 ### 3. Cloud (Live)
+
 Manage projects, environments, configurations, cloud integrations, and team collaboration workflows from a centralized web dashboard.
 
 ### 4. AI (Live)
+
 Provide contextual developer intelligence, diagnostics, recommendations, and workflow assistance across all IOBend surfaces.
 
 ### 5. SDK (Live)
+
 An enterprise TypeScript/JavaScript extensibility layer for building custom integrations, zero-trust secret injection, and custom tooling on top of the IOBend platform.
 
 ---
@@ -96,22 +100,26 @@ An enterprise TypeScript/JavaScript extensibility layer for building custom inte
 ## Installation
 
 ### macOS & Linux (Homebrew)
+
 ```bash
 brew tap Iobend/tap
 brew install iobend
 ```
 
 ### Windows (WinGet)
+
 ```powershell
 winget install iobend
 ```
 
 ### Linux, macOS & Windows (npm)
+
 ```bash
 npm install -g iobend
 ```
 
 ### Verify Installation
+
 ```bash
 iobend --version
 ```
@@ -121,19 +129,25 @@ iobend --version
 ## Getting Started
 
 ### 1. Diagnose Your Environment
+
 Ensure your machine is ready for development by running the built-in diagnostic tool.
+
 ```bash
 iobend doctor
 ```
 
 ### 2. Scaffold a New Project
+
 Create a complete Node.js project with Docker configurations.
+
 ```bash
 iobend generate --template nodejs-docker
 ```
 
 ### 3. Connect Integrations
+
 Authenticate with your cloud provider or CI/CD platform.
+
 ```bash
 iobend auth login --provider aws
 ```

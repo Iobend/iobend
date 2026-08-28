@@ -14,16 +14,18 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js 22 LTS
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
+          cache: 'npm'
 
       - name: Check Markdown formatting (Prettier)
         run: npx prettier --check "**/*.md"
 
       - name: Check Broken Links (markdown-link-check)
-        run: npx markdown-link-check "**/*.md"
+        run: |
+          find . -name "*.md" -not -path "*/node_modules/*" -not -path "*/.git/*" -print0 | xargs -0 -n 1 npx markdown-link-check --quiet
 
   prepare-release:
     name: Prepare GitHub Release
@@ -37,8 +39,8 @@ jobs:
 
       - name: Generate Release Notes
         id: generate_notes
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           generate_release_notes: true
-          draft: true
+          draft: false
           prerelease: false

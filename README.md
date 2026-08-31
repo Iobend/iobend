@@ -9,7 +9,7 @@
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
 [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
 
-[Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction)
+[Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction) • [Cheat Sheet (PDF)](docs/cheetsheet/IOBend_CLI_v2.5.0_Developer_Cheat_Sheet_FINAL.pdf)
 </div>
 
 ---
@@ -42,6 +42,14 @@ IOBend follows a systematic workflow to streamline development:
 - **Understand** — Use context and AI-powered intelligence to diagnose what is happening and explain why.
 - **Act** — Execute targeted recommendations and tasks through the CLI, IDE, or integrations.
 - **Automate** — Turn repetitive workflows, configurations, and fixes into repeatable automation for your team.
+
+---
+
+## 📖 Developer Cheat Sheet
+
+Quickly master all commands, aliases, container recipes, and MCP servers with our official printable guide:
+
+- 📄 **[Download IOBend CLI v2.5.0 Developer Cheat Sheet (PDF)](docs/cheetsheet/IOBend_CLI_v2.5.0_Developer_Cheat_Sheet_FINAL.pdf)**
 
 ---
 

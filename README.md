@@ -9,7 +9,7 @@
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
 [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
 
-[Documentation](https://iobend.vercel.app/docs) • [Installation](https://iobend.vercel.app/docs#installation) • [Getting Started](https://iobend.vercel.app/docs#introduction) • [Cheat Sheet (PDF)](docs/cheetsheet/IOBend_CLI_v2.5.0_Developer_Cheat_Sheet_FINAL.pdf)
+[Documentation](https://iobend.com/docs) • [Installation](https://iobend.com/docs#installation) • [Getting Started](https://iobend.com/docs#introduction) • [Cheat Sheet (PDF)](docs/cheetsheet/IOBend_CLI_v2.5.0_Developer_Cheat_Sheet_FINAL.pdf)
 </div>
 
 ---
@@ -193,7 +193,7 @@ We welcome contributions from the community! If you're interested in improving I
 
 ## Community & Support
 
-- **Documentation:** [Read the full docs](https://iobend.vercel.app/docs)
+- **Documentation:** [Read the full docs](https://iobend.com/docs)
 - **Issues:** [Report bugs or request features](https://github.com/iobend/iobend/issues)
 - **X / Twitter:** [@IOBendDev](https://twitter.com/IOBendDev)
 

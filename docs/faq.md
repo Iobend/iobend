@@ -176,4 +176,4 @@ Yes, for advanced features like SSO, RBAC, and centralized policy enforcement. S
 Yes, it is just a Git repository, which can live on your internal GitLab or GitHub Enterprise.
 
 **50. Do you offer SLA support?**
-Yes, SLA support is available for Enterprise customers. Contact sales@iobend.dev for more information.
+Yes, SLA support is available for Enterprise customers. Contact sales@iobend.com for more information.

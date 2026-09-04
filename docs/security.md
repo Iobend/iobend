@@ -24,7 +24,7 @@ We actively maintain and provide security patches for the latest major release o
 
 If you discover a security vulnerability in IOBend, please DO NOT report it on the public GitHub issue tracker.
 
-Instead, please send an email to **security@iobend.dev**. We will acknowledge receipt of your vulnerability report within 48 hours and strive to send you regular updates about our progress.
+Instead, please send an email to **security@iobend.com**. We will acknowledge receipt of your vulnerability report within 48 hours and strive to send you regular updates about our progress.
 
 ## Privacy & Telemetry
 

@@ -54,4 +54,4 @@ Every destructive action taken via the CLI (like pushing a container or applying
 ## Licensing
 
 IOBend Enterprise is licensed on a per-seat (per-developer) basis.
-To request a demo, start a trial, or view pricing tiers, please visit [iobend.dev/enterprise](https://iobend.dev/enterprise) or contact our sales team at **sales@iobend.dev**.
+To request a demo, start a trial, or view pricing tiers, please visit [iobend.com/pricing](https://iobend.com/pricing) or contact our sales team at **sales@iobend.com**.

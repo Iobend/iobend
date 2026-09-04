@@ -5,8 +5,8 @@
 
 **IOBend connects your development environment, tools, workflows, and AI in one platform.**
 
-[![Version](https://img.shields.io/npm/v/iobend.svg)](https://npmjs.com/package/iobend)
-[![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://npmjs.com/package/iobend)
+[![Version](https://img.shields.io/npm/v/iobend.svg)](https://www.npmjs.com/package/iobend)
+[![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://www.npmjs.com/package/iobend)
 [![License](https://img.shields.io/github/license/iobend/iobend.svg)](https://github.com/iobend/iobend/blob/main/LICENSE)
 
 [Documentation](https://iobend.com/docs) • [Installation](https://iobend.com/docs#installation) • [Getting Started](https://iobend.com/docs#introduction) • [Cheat Sheet (PDF)](docs/cheetsheet/IOBend_CLI_v2.5.0_Developer_Cheat_Sheet_FINAL.pdf)

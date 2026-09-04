@@ -38,7 +38,7 @@ iobend container build .
 IOBend can run inside any standard CI/CD provider:
 
 - **GitHub Actions**: See the [GitHub Actions Guide](github-actions.md).
-- **GitLab CI**: Use our official GitLab Docker image `registry.iobend.dev/cli:latest`.
+- **GitLab CI**: Use our official GitLab Docker image `registry.iobend.com/cli:latest`.
 - **CircleCI**: Execute IOBend commands directly via the `run` step.
 - **Jenkins**: Install the binary on your agent nodes and call it within your `Jenkinsfile`.
 

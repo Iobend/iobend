@@ -38,7 +38,7 @@ _Note: Native APT/RPM packages are coming soon._
 For now, you can download the latest binary using our install script:
 
 ```bash
-curl -sL https://iobend.io/install.sh | bash
+curl -sL https://iobend.com/install.sh | bash
 ```
 
 ## Shell Auto-Completion Setup

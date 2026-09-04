@@ -13,7 +13,7 @@ We take security seriously. We currently provide security updates for the follow
 
 If you discover a security vulnerability within IOBend, please do NOT open a public issue.
 
-Instead, please send an e-mail to our security team at **security@iobend.io** (placeholder) or use GitHub's private vulnerability reporting feature on this repository.
+Instead, please send an e-mail to our security team at **security@iobend.com** or use GitHub's private vulnerability reporting feature on this repository.
 
 ### Disclosure Process
 

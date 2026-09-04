@@ -22,7 +22,7 @@ Pass this token in the `Authorization` header of your HTTP requests:
 
 ```http
 GET /v1/templates HTTP/1.1
-Host: api.iobend.dev
+Host: api.iobend.com
 Authorization: Bearer iob_1234567890abcdef
 ```
 

@@ -4,9 +4,8 @@ This directory contains official branding assets, logos, and screenshots for IOB
 
 ## Contents
 
-- **Logos**: High-resolution vector and PNG formats of the IOBend logo.
-- **Screenshots**: Up-to-date screenshots of the CLI and UI dashboard for use in documentation and blog posts.
-- **Banners**: Social media and GitHub repository banners.
+- **Official Logo (`IOBend.jpg`)**: The official, authoritative IOBend logo mark.
+- **Guidelines**: Official brand identity specifications detailed in [`docs/BRAND_GUIDELINES.md`](../../docs/BRAND_GUIDELINES.md).
 
 ## Usage Guidelines
 

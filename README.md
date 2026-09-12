@@ -195,7 +195,7 @@ We welcome contributions from the community! If you're interested in improving I
 
 - **Documentation:** [Read the full docs](https://iobend.com/docs)
 - **Issues:** [Report bugs or request features](https://github.com/iobend/iobend/issues)
-- **X / Twitter:** [@IOBendDev](https://twitter.com/IOBendDev)
+- **X / Twitter:** [@IOBendDev](https://x.com/iobenddev)
 
 ---
 

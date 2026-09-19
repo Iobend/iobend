@@ -5,15 +5,15 @@ class Iobend < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Iobend/iobend/releases/download/v2.6.1/IOBend-v2.6.1-macos-arm64.tar.gz"
-      sha256 "69ca574658644a19729b65466e7c86a75301d92ad99d2c2b9d76b7fd722f7b88"
+      url "https://github.com/Iobend/iobend/releases/download/v2.6.3/IOBend-v2.6.3-macos-arm64.tar.gz"
+      sha256 "f232300b1e6a78c338e2c863254b9e5653781dcfd5821d6befd6a3360574593c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Iobend/iobend/releases/download/v2.6.1/IOBend-v2.6.1-linux-x64.tar.gz"
-      sha256 "6b9d7fd0305a526f3031b3f55644835c67b98066eb75c471fc345ebf73e10465"
+      url "https://github.com/Iobend/iobend/releases/download/v2.6.3/IOBend-v2.6.3-linux-x64.tar.gz"
+      sha256 "dbf89f56652148c3a1ee48c358ab53a389e5fa339dd0be757fe39ef789561a9d"
     end
   end
 

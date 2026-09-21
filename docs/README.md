@@ -1,17 +1,21 @@
 ---
 title: "IOBend Documentation"
-description: "Developer environment manager for diagnostics, setup, and DevOps automation."
+description: "Legacy documentation for IOBend CLI."
 keywords:
   ["iobend", "cli", "devops", "platform engineering", "developer experience"]
 ---
 
 # IOBend Documentation
+ 
+> [!WARNING]
+> **LEGACY / ARCHIVED DOCUMENTATION**  
+> This documentation represents an earlier, CLI-only stage of IOBend. For current documentation covering the complete **IOBend Unified Developer Experience Platform and Ecosystem** (Web, CLI, IDE Extensions, SDK), please visit the official live documentation at [iobend.com/docs](https://iobend.com/docs).
 
-Welcome to the official documentation for **IOBend** – the developer environment manager for diagnostics, setup, and DevOps automation.
+Welcome to the legacy documentation archive for **IOBend CLI** — part of the IOBend Unified Developer Experience Platform.
 
 ## What is IOBend?
 
-IOBend is a modern, cross-platform CLI tool built to unify the way developers and platform engineers configure, manage, and debug their workspaces. It draws inspiration from industry standards like Docker, Terraform, and the GitHub CLI to provide an intuitive, robust, and extensible interface.
+IOBend is a Unified Developer Experience Platform connecting workspaces, developer environments, secrets, tools, and workflows.
 
 Whether you're a student setting up your first project or an enterprise team orchestrating complex microservices, IOBend helps you get to work faster.
 

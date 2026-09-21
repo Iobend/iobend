@@ -6,10 +6,9 @@ keywords: ["roadmap", "future", "planned", "vision", "iobend"]
 
 # Roadmap
 
-Our vision for IOBend is to be the undisputed standard for local developer environments and DevOps automation. Below is our current roadmap.
-
-> [!NOTE]
-> This roadmap is a living document. Priorities may shift based on community feedback.
+> [!WARNING]
+> **LEGACY / ARCHIVED DOCUMENTATION**  
+> This roadmap reflects the early v1.0 CLI release milestones. For current platform roadmap, features, and capabilities of the **IOBend Unified Developer Experience Platform and Ecosystem**, visit [iobend.com](https://iobend.com).
 
 ## Current Status
 

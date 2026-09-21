@@ -1,5 +1,5 @@
 class Iobend < Formula
-  desc "Developer environment manager for diagnostics, setup, and DevOps automation"
+  desc "Command-line interface for the IOBend Unified Developer Experience Platform"
   homepage "https://github.com/Iobend/iobend"
   license "MIT"
 

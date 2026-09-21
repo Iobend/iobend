@@ -6,12 +6,16 @@ keywords: ["faq", "questions", "help", "iobend", "support"]
 
 # Frequently Asked Questions
 
-Here are 50 of the most frequently asked questions about IOBend, categorized for your convenience.
+> [!WARNING]
+> **LEGACY / ARCHIVED DOCUMENTATION**  
+> This FAQ represents an earlier, CLI-only release stage of IOBend. For up-to-date documentation on the complete **IOBend Unified Developer Experience Platform and Ecosystem** (Web, CLI, IDE Extensions, SDK), please visit [iobend.com/docs](https://iobend.com/docs).
+
+Here are common questions and answers about IOBend.
 
 ## General
 
 **1. What is IOBend?**
-IOBend is a developer environment manager and CLI tool designed to simplify local development, environment diagnostics, and DevOps automation.
+IOBend is a Unified Developer Experience Platform connecting workspaces, developer environments, secrets, tools, and workflows. The IOBend CLI provides terminal access to these capabilities.
 
 **2. Who is IOBend for?**
 It's built for developers, DevOps engineers, and platform teams who want a standardized, reproducible development workflow.
@@ -46,7 +50,7 @@ The source code is hosted on [GitHub](https://github.com/iobend/iobend).
 This happens when your global `node_modules` is owned by `root`. Use a node version manager like `nvm` or fix your npm permissions.
 
 **12. Is there a GUI available?**
-Currently, IOBend is CLI-only. A web-based Enterprise Dashboard is planned.
+Yes! The IOBend Web Platform (`iobend.com`) provides a full cloud dashboard, while the IOBend VS Code extension integrates directly into your editor.
 
 **13. How do I uninstall IOBend?**
 Use your package manager (e.g., `npm uninstall -g iobend` or `brew uninstall iobend`).

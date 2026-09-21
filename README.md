@@ -1,9 +1,9 @@
 <div align="center">
   <img src="assets/IOBend.jpg" alt="IOBend Logo" width="150" />
 
-# IOBend — The Developer Control Plane
+# IOBend — Unified Developer Experience Platform
 
-**IOBend connects your development environment, tools, workflows, and AI in one platform.**
+**IOBend connects your development environments, tools, workflows, secrets, and AI in one platform.**
 
 [![Version](https://img.shields.io/npm/v/iobend.svg)](https://www.npmjs.com/package/iobend)
 [![Downloads](https://img.shields.io/npm/dt/iobend.svg)](https://www.npmjs.com/package/iobend)
@@ -16,7 +16,7 @@
 
 ## What is IOBend?
 
-IOBend is a unified platform connecting your development environment, tools, workflows, and AI. It provides a standardized control plane to diagnose local setup issues, scaffold projects, orchestrate container workflows, and manage environment configurations.
+IOBend is a Unified Developer Experience Platform connecting your development environment, tools, workflows, secrets, and AI. It provides a standardized platform to diagnose local setup issues, scaffold projects, orchestrate container workflows, manage zero-trust secrets, and unify environment configurations.
 
 IOBend is one platform with multiple interfaces, rather than a collection of unrelated tools. It brings the robust design principles of modern infrastructure tooling directly into your local development workflow.
 
